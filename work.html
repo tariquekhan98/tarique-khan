@@ -2,121 +2,281 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width,initial-scale=1" name="viewport">
-  <meta content="description" name="description">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of works by Tarique Khan, Software Development Engineer." />
   <meta name="google" content="notranslate" />
-  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+  <meta name="author" content="Tarique Khan" />
 
-  <!-- Disable tap highlight on IE -->
-  <meta name="msapplication-tap-highlight" content="no">
-  
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
-  <link href="./assets/favicon.ico" rel="icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png" />
+  <link href="./assets/favicon.ico" rel="icon" />
 
-  <title>Work</title>  
+  <title>Works</title>
 
-<link href="./main.3f6952e4.css" rel="stylesheet"></head>
+  <link href="./main.3f6952e4.css" rel="stylesheet" />
+</head>
 
-<body class="">
-<div id="site-border-left"></div>
-<div id="site-border-right"></div>
-<div id="site-border-top"></div>
-<div id="site-border-bottom"></div>
-<!-- Add your content of header -->
-<header>
-  <nav class="navbar  navbar-fixed-top navbar-default">
-    <div class="container">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+<body>
+  <div id="site-border-left"></div>
+  <div id="site-border-right"></div>
+  <div id="site-border-top"></div>
+  <div id="site-border-bottom"></div>
+
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-fixed-top navbar-default" role="navigation">
+      <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
+          aria-expanded="false" aria-controls="navbar-collapse" aria-label="Toggle navigation">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
 
-      <div class="collapse navbar-collapse" id="navbar-collapse">
-        <ul class="nav navbar-nav ">
-          <li><a href="./index.html" title="">Home</a></li>
-          <li><a href="./works.html" title="">Works</a></li>
-          <li><a href="./about.html" title="">About me</a></li>
-          <li><a href="./contact.html" title="">Contact</a></li>
-        </ul>
-
-          <ul class="nav navbar-nav navbar-right navbar-small visible-md visible-lg">
-            <li><a href="./index.html" title="" class="active">001</a></li>
-            <li><a href="./index.html" title="">002</a></li>
-            <li><a href="./index.html" title="">003</a></li>
-            <li><a href="./index.html" title="">004</a></li>
-            <li><a href="./index.html" title="">005</a></li>
-            <li><a href="./index.html" title="">006</a></li>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="./index.html" title="Home" class="nav-link">Home</a></li>
+            <li><a href="./works.html" title="Works" class="nav-link active" aria-current="page">Works</a></li>
+            <li><a href="./about.html" title="About me" class="nav-link">About me</a></li>
+            <li><a href="./contact.html" title="Contact" class="nav-link">Contact</a></li>
           </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
+  <div class="section-container">
+    <div class="container">
+      <div class="row">
 
-      </div> 
-    </div>
-  </nav>
-</header>
-<div class="section-container">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <img src="./assets/images/work001-01.jpg" class="img-responsive" alt="">
-        <div class="card-container">
+        <div class="col-sm-8 col-sm-offset-2 section-container-spacer">
           <div class="text-center">
-            <h1 class="h2">001 : Fringilla sit amet</h1>
-          </div>
-          <p>Nulla facilisi. Vivamus vestibulum, elit in scelerisque ultricies, nisl nunc pulvinar ligula, id sodales arcu sapien in nisi. Quisque libero enim, mattis non augue posuere, venenatis dapibus urna.</p>
-
-          <blockquote>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."</p>
-            <small class="pull-right">Irina Martin</small>
-          </blockquote>
-        </div>
-      </div>
-
-      
-      
-      <div class="col-md-8 col-md-offset-2 section-container-spacer">
-        <div class="row">
-          <div class="col-xs-12 col-md-6">
-            <img src="./assets/images/work001-02.jpg" class="img-responsive" alt="">
-            <p>Menphis skyline</p>
-          </div>
-          <div class="col-xs-12 col-md-6">
-            <img src="./assets/images/work001-03.jpg" class="img-responsive" alt="">
-            <p>Menphis skyline</p>
+            <h1 class="h2">Works</h1>
+            <p>
+              A highly focused, self-motivated innovative Software Development Engineer having experience in designing,
+              developing, testing and maintaining web applications (back-end) in Java.<br />
+              Hands-on experience in Rest API, Microservices and SOAP development.
+            </p>
           </div>
         </div>
-      </div>
 
-      <div class="col-xs-12">
-        <img src="./assets/images/work001-04.jpg" class="img-responsive" alt="">
-      </div>
+        <div class="col-md-12">
 
+          <div id="myCarousel" class="carousel slide projects-carousel" data-ride="carousel" aria-label="Projects Carousel">
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+
+              <div class="item active">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <a href="./work.html" title="Failed Orders Recovery System" class="black-image-project-hover">
+                      <img src="./assets/images/work01-hover.jpg" alt="Failed Orders Recovery System" class="img-responsive" />
+                    </a>
+                    <div class="card-container card-container-lg">
+                      <h3>Failed Orders Recovery System</h3>
+                      <p>
+                        - Built a failed-order handling system to extract customer and order details when backend transfers
+                        failed (e.g., POM/BL-CRM issues).<br />
+                        - Integrated with DMS client to map data and auto-generate PDFs, enabling manual processing and customer
+                        outreach.<br />
+                        - Owned the feature end-to-end, collaborating with PO, BA, and architect to define and deliver the solution.<br />
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <a href="./work.html" title="Custom Reporting System" class="black-image-project-hover">
+                      <img src="./assets/images/work01-hover.jpg" alt="Custom Reporting System" class="img-responsive" />
+                    </a>
+                    <div class="card-container card-container-lg">
+                      <h3>Custom Reporting System</h3>
+                      <p>
+                        - Engineered a configurable reporting system to extract filtered orders, generate CSVs, and securely transfer
+                        to SFTP.<br />
+                        - Scaled solution to support multiple reporting use cases, improving flexibility and reuse.<br />
+                        - Enabled business teams with actionable insights through automated data delivery.<br />
+                        - Delivered feature on time with high-quality code, ensuring reliability and adoption.<br />
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <a href="./work.html" title="Process Flow Management" class="black-image-project-hover">
+                      <img src="./assets/images/work01-hover.jpg" alt="Process Flow Management" class="img-responsive" />
+                    </a>
+                    <div class="card-container card-container-lg">
+                      <h3>Process Flow Management</h3>
+                      <p>
+                        - I assumed full accountability for this entire feature, overseeing its research and development to its delivery.<br />
+                        - I participated closely with the architect and business team in the gathering and analysis of requirements for
+                        this concept and its development.<br />
+                        - Some offerings / assets have a pre-defined contract runtime. If this time has ended, we need to update the asset,
+                        inform the customer and stop the service.<br />
+                        - The Process Flow API allows management of business process. It provides all required information to achieve a
+                        business task and may involve manual action.<br />
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--/row-->
+              </div>
+
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <a href="./work.html" title="Eligibility Check (Fixedline Relocation)" class="black-image-project-hover">
+                      <img src="./assets/images/work01-hover.jpg" alt="Eligibility Check Fixedline Relocation" class="img-responsive" />
+                    </a>
+                    <div class="card-container card-container-lg">
+                      <h3>Eligibility Check (Fixedline Relocation)</h3>
+                      <p>
+                        - Verified the eligibility of customers for fixed line relocation, assessing their ability to relocate from one address
+                        to another.<br />
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <a href="./work.html" title="E-Commerce" class="black-image-project-hover">
+                      <img src="./assets/images/work01-hover.jpg" alt="E-Commerce" class="img-responsive" />
+                    </a>
+                    <div class="card-container card-container-lg">
+                      <h3>E-Commerce</h3>
+                      <p>
+                        - Built an e-commerce web project in Spring Boot using Java, MySQL and JavaScript for Indian Express to sell and deliver
+                        paper online.<br />
+                        - Worked with a team of 3 members.<br />
+                        - It was revamped of existing subscriptions flow. I created a paper delivery mechanism, cron to send email and SMS for
+                        subscriptions renewal.<br />
+                        - All email and SMS sending mechanism was also developed by me.<br />
+                        - PDF invoice generation, updation on S3 cloud and delivery mechanism also developed.<br />
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <a href="./work.html" title="Report Management System" class="black-image-project-hover">
+                      <img src="./assets/images/work02-hover.jpg" alt="Report Management System" class="img-responsive" />
+                    </a>
+                    <div class="card-container card-container-lg">
+                      <h3>Report Management System</h3>
+                      <p>
+                        - Built report management system for e-commerce web project in Spring Boot using Thymeleaf, Java, MySQL, Mongo and JavaScript
+                        for Indian Express subscriptions.<br />
+                        - Worked alone on this project.<br />
+                        - Created API and UI for product and order snapshot on the daily basis to analyze the number of subscriptions.<br />
+                        - The Indian Express Customer Care use this report for customer care support.<br />
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--/row-->
+              </div>
+
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <a href="./work.html" title="Form Manager" class="black-image-project-hover">
+                      <img src="./assets/images/work03-hover.jpg" alt="Form Manager" class="img-responsive" />
+                    </a>
+                    <div class="card-container card-container-lg">
+                      <h3>Form Manager</h3>
+                      <p>
+                        - Built form manager web project in Spring Boot using Java, MySQL, Mongo and JavaScript for Indian Express to generate dynamic
+                        form like Google form.<br />
+                        - Worked with a team of 2 members.<br />
+                        - Developed responsive API to generate dynamic form fields and save response dump.<br />
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <a href="./work.html" title="Eureka" class="black-image-project-hover">
+                      <img src="./assets/images/work02-hover.jpg" alt="Eureka" class="img-responsive" />
+                    </a>
+                    <div class="card-container">
+                      <h3>Eureka</h3>
+                      <p>
+                        - Built web project in Spring Boot using Java, MySQL and JavaScript for Indian Express to make people search for videos for different
+                        types of activities e.g: Sports, Cooking, Craft.<br />
+                        - Worked with a team of 2 members.<br />
+                        - Created API and frontend in Thymeleaf to develop a complete website.<br />
+                        - SEO also added to enhance performance and page ranking of website.<br />
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <a href="./work.html" title="Scholarship" class="black-image-project-hover">
+                      <img src="./assets/images/work01-hover.jpg" alt="Scholarship" class="img-responsive" />
+                    </a>
+                    <div class="card-container">
+                      <h3>Scholarship</h3>
+                      <p>
+                        - Built web project in Spring Boot using Java, MySQL and JavaScript for Indian Express to help the student apply for the scholarship.<br />
+                        - Worked alone on this project.<br />
+                        - Created API and UI for scholarship widget which is integrated by WordPress team on many pages of The Indian Express.<br />
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--/row-->
+              </div>
+
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <a href="./work.html" title="Shine.com" class="black-image-project-hover">
+                      <img src="./assets/images/work03-hover.jpg" alt="Shine.com Android App" class="img-responsive" />
+                    </a>
+                    <div class="card-container">
+                      <h3>Shine.com</h3>
+                      <p>
+                        - Built and maintained core features for the Android app with 5M downloads in Android Studio using Java and Kotlin.<br />
+                        - Worked with a team of 3 members.<br />
+                        - Created new UI and API integration for login and update flow.<br />
+                        - My profile badges logic developed by me.<br />
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--/row-->
+              </div>
+
+            </div>
+            <!--/carousel-inner-->
+
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" aria-label="Previous slide">
+              ‹
+            </a>
+
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" aria-label="Next slide">
+              ›
+            </a>
+          </div>
+          <!--/myCarousel-->
+
+        </div>
+
+      </div>
     </div>
   </div>
-</div>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function (event) {
-     navActivePage();
-  });
-</script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      navActivePage();
+    });
+  </script>
 
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-XXXXX-X', 'auto');
+    ga('send', 'pageview');
+  </script>
+  -->
 
-<script>
-  (function (i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-      (i[r].q = i[r].q || []).push(arguments)
-    }, i[r].l = 1 * new Date(); a = s.createElement(o),
-      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-  ga('create', 'UA-XXXXX-X', 'auto');
-  ga('send', 'pageview');
-</script>
-
---> <script type="text/javascript" src="./main.70a66962.js"></script></body>
+  <script type="text/javascript" src="./main.70a66962.js" defer></script>
+</body>
 
 </html>
